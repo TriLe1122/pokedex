@@ -1,1 +1,22 @@
 /* BASIC STYLES HERE */
+input[type="checkbox"] {
+  accent-color: red;
+}
+
+.start-bar,
+.end-bar {
+  max-height: 100vh;
+  overflow: auto;
+  max-width: 30vw;
+}
+
+.main-content {
+  width: 80%;
+  background-image: url(https://assets.pokemon.com//assets/cms2/img/misc/virtual-backgrounds/masters/forest.jpg);
+  background-size: cover;
+}
+
+.pokemon {
+  width: 15rem;
+  height: 15rem;
+}
